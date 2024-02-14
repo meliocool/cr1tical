@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends: Bang Bang</title>
+    <link href = "mole.css" rel = "stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel ="icon" href="images/RetroLogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href = "mainobs.html"><li class = "logo">CRIT1CAL</li></a>
+                    <div class = "navbar">
+                        <li><a href = "pcobs.html">PC</a></li>
+                        <li><a href = "playstationobs.html">PlayStation</a></li>
+                        <li><a href = "xboxobs.html">XBOX</a></li>
+                        <li><a href = "mobileobs.css">Mobile</a></li>
+                    </div>
+                <li class ="search-box">
+                    <input type = "search" placeholder="Search">
+                    <div class = "icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </li>
+                <li class = "login" onmouseover="showAccountInfo()" onmouseout="hideAccountInfo()">
+                    <button type = "submit" class = "btn" onclick = "location.href='newlogin.html'">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <div id="accountInfo" class = "account-info">
+                        <img src = "images/wanderer.webp">
+                        <h4>DreamyCow123</h4>
+                        <p>Observer</p>
+                    </div>
+                </li>
+        </ul>
+    </nav>
+    </header>
+    <section class = "game-info">
+        <div class = "vid">
+            <video controls autoplay muted loop>
+                <source src = "videos/EYES ON ME｜Cici _ Hero Concept Video _ Mobile Legends_ Bang Bang.mp4" type = "video/mp4">
+            </video>
+        </div>
+        <div class = "info">
+            <h2>Mobile Legends: Bang Bang</h2>
+            <img class = "xbox" src = "images/mobilephone.png">
+            <hr>
+            <h3 class = "expert">Expert Score</h3> 
+            <p>Based on IGN and Metacritic</p>
+            <img class = "expert-sqr" src = "images/92.png">
+            <img class = "expert-line" src = "images/95chees.png">
+            <h3 class = "userR">User Score</h3>
+            <p class = "userp">Based on 6 reviews</p>
+            <img class = "user-sqr" src = "images/92.png">
+            <img class = "user-line" src = "images/95chees.png">
+        </div>
+    </section>
+    <section class = "gamesumm">
+        <div class = "game-summary">
+            <h2>About this game</h2>
+            <hr>
+            <p>Mobile Legends: Bang Bang, commonly known as ML or MLBB, is a mobile multiplayer online battle arena (MOBA) game 
+            developed and published by Moonton, a ByteDance subsidiary. Since its release in 2016, the game has grown ADVANCE SERVER
+            in popularity worldwide, most notably in Southeast Asia, and has since surpassed the 1 billion downloads milestone, 
+            with peak monthly players of 100 million. In 2021, Mobile Legends: Bang Bang achieved an all-time gross of US$1 billion, with 44 percent of its revenue coming from outside Asia, making it the top mobile game of its genre with the most global appeal.
+            The game sets two teams of five against each other in real-time, with at least 10-second matchmaking and 10-minute matches. Players must fight over three lanes to take the enemy's tower and protect their own in a traditional battle arena game. Unlike traditional MOBAs, there is no hero leveling or pay to play aspect—winners and losers are determined by skill, ability, and strategy.</p>
+        </div>
+    </section>
+    <section class = "review">
+        <div class = "reviewh2">
+            <h2>User Reviews</h2>
+            <hr>
+            <br>
+        </div>
+        <div class = "comment1">
+            <p>LoveAndLightTV</p>
+            <p>I am a proud Epical Glory</p>
+            <img src = "rating/10.png">
+        </div>
+        <div class = "comment2">
+            <p>Baraqbah</p>
+            <p>I love to play this family friendly game with my friends!</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment3">
+            <p>Aldiaz</p>
+            <p>Players here are so kind and fun to play with</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment4">
+            <p>AOVPlayer123</p>
+            <p>I guess its better than AOV</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment5">
+            <p>Nicolous Krisandry</p>
+            <p>-1 Mage</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment6">
+            <p>AldyGaming</p>
+            <p>Backend nya mana?</p>
+            <img src = "rating/9.png">
+        </div>
+    </section>
+</body>
+    <script src = "reviewjs.js"></script>
+</html>

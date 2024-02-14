@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIT1CAL</title>
+    <link rel = "stylesheet" href = "devmain.css" type = "text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel ="icon" href="images/RetroLogo.png" type="image/x-icon">
+    <script src = "accountooltip.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href = "devmain.html"><li class = "logo">CRIT1CAL</li></a>
+                    <div class = "navbar">
+                        <li><a href = "devpc.html">PC</a></li>
+                        <li><a href = "devplaystation.html">PlayStation</a></li>
+                        <li><a href = "devxbox.html">XBOX</a></li>
+                        <li><a href = "devmobile.html">Mobile</a></li>
+                    </div>
+                <li class ="search-box">
+                    <input type = "search" placeholder="Search">
+                    <div class = "icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </li>
+                <li class = "login" onmouseover="showAccountInfo()" onmouseout="hideAccountInfo()">
+                    <button type = "submit" class = "btn" onclick = "location.href='newlogin.html'">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <div id="accountInfo" class = "account-info">
+                        <img src = "images/fromsoft.png">
+                        <h4>FromSoftware</h4>
+                        <p>Developer</p>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class = "banner">
+        <div class = "words">
+            <h1>CRIT1CAL</h1>
+            <p>Find your next <br> captivating gaming moment</p>
+        </div>
+        <div class = "cool-image">
+            <img src = "images/ragingwolf-removebg-preview.png">    
+        </div>
+    </section>
+    <section class = "new-releases">
+        <div class = "new-release">
+            <h1>Games you released on the XBOX Console</h1>
+            <hr>
+        </div>
+        <div class = "container">
+            <div class = "game-1">
+                <a href = "armoredobs.html"><img src = "images/armoredcore.png"></a>
+                <a class = "text1" href = "armoredobs.html">Armored Core VI: Fires of Rubicon</a>
+                <img class = "ac" src = "images/88.png">
+                <img class = "acbar" src = "images/86-87.png">
+            </div>
+            <div class = "game-2">
+                <a href = "#"><img src = "images/eldenboys.png"></a>
+                <a class = "text2" href = "#">Elden Ring</a>
+                <img class = "elden" src = "images/98.png"> 
+                <img class = "eldenbar" src = "images/whyuputcheese98.png">
+            </div>
+            <div class = "game-3">
+                <a href = "#"><img src = "images/darksouls3.jpg"></a>
+                <a class = "text3" href = "#">Dark Souls 3</a>
+                <img class = "ds3" src = "images/91.png">
+                <img class = "ds3bar" src = "images/86-87.png">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

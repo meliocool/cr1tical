@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai: Star Rail</title>
+    <link href = "genshin.css" rel = "stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel ="icon" href="images/RetroLogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href = "mainpageaftrlogin.html"><li class = "logo">CRIT1CAL</li></a>
+                    <div class = "navbar">
+                        <li><a href = "pcobs.html">PC</a></li>
+                        <li><a href = "playstationobs.html">PlayStation</a></li>
+                        <li><a href = "xboxobs.html">XBOX</a></li>
+                        <li><a href = "mobileobs.css">Mobile</a></li>
+                    </div>
+                <li class ="search-box">
+                    <input type = "search" placeholder="Search">
+                    <div class = "icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </li>
+                <li class = "login" onmouseover="showAccountInfo()" onmouseout="hideAccountInfo()">
+                    <button type = "submit" class = "btn" onclick = "location.href='newlogin.html'">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <div id="accountInfo" class = "account-info">
+                        <img src = "images/wanderer.webp">
+                        <h4>DreamyCow123</h4>
+                        <p>Observer</p>
+                    </div>
+                </li>
+        </ul>
+    </nav>
+    </header>
+    <section class = "game-info">
+        <div class = "vid">
+            <video controls autoplay muted loop>
+                <source src = "videos/TGA Candidacy Video_ A Story That Never Grows Dull _ Honkai_ Star Rail.mp4" type = "video/mp4">
+            </video>
+        </div>
+        <div class = "info">
+            <h2>Honkai: Star Rail</h2>
+            <img class = "ps5" src = "images/ps5new.png">
+            <img class = "pc" src = "images/dhitanwindow.png">
+            <img class = "xbox" src = "images/mobilephone.png">
+            <hr>
+            <h3 class = "expert">Expert Score</h3> 
+            <p>Based on IGN and Metacritic</p>
+            <img class = "expert-sqr" src = "images/98.png">
+            <img class = "expert-line" src = "images/98cheese.png">
+            <h3 class = "userR">User Score</h3>
+            <p class = "userp">Based on 6 reviews</p>
+            <img class = "user-sqr" src = "images/98.png">
+            <img class = "user-line" src = "images/98cheese.png">
+        </div>
+    </section>
+    <section class = "gamesumm">
+        <div class = "game-summary">
+            <h2>About this game</h2>
+            <hr>
+            <p>Honkai Star Rail is a turn-based RPG that focuses on the story of the Honkai, a race of mechanical beings who 
+            are slowly taking over Earth. The game provides players with a large cast of characters, each with their own 
+            unique playstyle and backstory. Players can customize their characters by equipping them with new weapons and 
+            accessories, which can then be upgraded to provide additional benefits in battle. Players can also complete 
+            puzzles and minigames in between battles, keeping gameplay from becoming monotonous or repetitive. 
+            Honkai Star Rail provides a level of depth and strategy to its gameplay that makes battles feel 
+            rewarding and challenging, without being overwhelming for novice players. The inclusion of puzzles 
+            and minigames
+         adds variety to the gameplay without distracting from its focus on storytelling, which is essential for any visual novel.</p>
+        </div>
+    </section>
+    <section class = "review">
+        <div class = "reviewh2">
+            <h2>User Reviews</h2>
+            <hr>
+            <br>
+        </div>
+        <div class = "comment1">
+            <p>LoveAndLightTV</p>
+            <p>Best mobile game fr</p>
+            <img src = "rating/10.png">
+        </div>
+        <div class = "comment2">
+            <p>Baraqbah</p>
+            <p>Siapa mau adu damage sama aku??</p>
+            <img src = "rating/10.png">
+        </div>
+        <div class = "comment3">
+            <p>Giorno Giovanna</p>
+            <p>Game is good but touching grass is better</p>
+            <img src = "rating/10.png">
+        </div>
+        <div class = "comment4">
+            <p>March 7 Simp</p>
+            <p>Yea pretty decent game</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment5">
+            <p>Nicolous Krisandry</p>
+            <p>Persona is better but this is good too</p>
+            <img src = "rating/10.png">
+        </div>
+        <div class = "comment6">
+            <p>AldyGaming</p>
+            <p>Backend nya mana?</p>
+            <img src = "rating/10.png">
+        </div>
+    </section>
+</body>
+    <script src = "reviewjs.js"></script>
+</html>

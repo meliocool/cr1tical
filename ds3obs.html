@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls 3</title>
+    <link href = "eldenring.css" rel = "stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel ="icon" href="images/RetroLogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href = "devmain.html"><li class = "logo">CRIT1CAL</li></a>
+                    <div class = "navbar">
+                        <li><a href = "pc.html">PC</a></li>
+                        <li><a href = "playstation.html">PlayStation</a></li>
+                        <li><a href = "xbox.html">XBOX</a></li>
+                        <li><a href = "mobile.html">Mobile</a></li>
+                    </div>
+                <li class ="search-box">
+                    <input type = "search" placeholder="Search">
+                    <div class = "icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </li>
+                <li class = "login" onmouseover="showAccountInfo()" onmouseout="hideAccountInfo()">
+                    <button type = "submit" class = "btn" onclick = "location.href='newlogin.html'">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <div id="accountInfo" class = "account-info">
+                        <img src = "images/fromsoft.png">
+                        <h4>FromSoftware</h4>
+                        <p>Developer</p>
+                    </div>
+                </li>
+        </ul>
+    </nav>
+    </header>
+    <section class = "game-info">
+        <div class = "vid">
+            <video controls autoplay muted loop>
+                <source src = "videos/Dark Souls III - Opening Cinematic Trailer _ PS4, XB1, PC.mp4" type = "video/mp4">
+            </video>
+        </div>
+        <div class = "info">
+            <h2>Dark Souls 3</h2>
+            <img class = "ps5" src = "images/ps5new.png">
+            <img class = "pc" src = "images/dhitanwindow.png">
+            <img class = "xbox" src = "images/xboxonline.png">
+            <hr>
+            <h3 class = "expert">Expert Score</h3> 
+            <p>Based on IGN and Metacritic</p>
+            <img class = "expert-sqr" src = "images/90.png">
+            <img class = "expert-line" src = "images/85line.png">
+            <h3 class = "userR">User Score</h3>
+            <p class = "userp">Based on 6 reviews</p>
+            <img class = "user-sqr" src = "images/90.png">
+            <img class = "user-line" src = "images/85line.png">
+        </div>
+    </section>
+    <section class = "gamesumm">
+        <div class = "game-summary">
+            <h2>About this game</h2>
+            <hr>
+            <p>Dark Souls III is a 2016 action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment for PlayStation 4, Xbox One, and Windows. The third and final entry in the Dark Souls series, it is played in a third-person perspective, and players have access to various weapons, armour, magic, and consumables that they can use to fight their enemies. Hidetaka Miyazaki, the creator of the series, returned to direct the game after handing the development duties of Dark Souls II to others.</p>
+        </div>
+    </section>
+    <section class = "review">
+        <div class = "reviewh2">
+            <h2>User Reviews</h2>
+            <hr>
+            <br>
+        </div>
+        <div class = "comment1">
+            <p>LoveAndLightTV</p>
+            <p>A phenomenal end to a nearly perfect trilogy</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment2">
+            <p>Baraqbah</p>
+            <p>Genshin Impact is better</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment3">
+            <p>Giorno Giovanna</p>
+            <p>Game is good but touching grass is better</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment4">
+            <p>Vanza Gaming</p>
+            <p>Call of duty is way better</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment5">
+            <p>Melio</p>
+            <p>Second Best Souls-like of all time!</p>
+            <img src = "rating/9.png">
+        </div>
+        <div class = "comment6">
+            <p>AldyGaming</p>
+            <p>Backend nya mana?</p>
+            <img src = "rating/9.png">
+        </div>
+    </section>
+</body>
+    <script src = "reviewjs.js"></script>
+</html>

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto sans", sans-serif;
+}
+
+body {
+    /* background-image: linear-gradient(#1b2141, darkblue); */
+    background-image: url("images/battlefield-sekiro-shadows-die-twice-thumb.png");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperpw {
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    color: rgb(103, 103, 103);
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    padding: 30px 40px;
+}
+
+.wrapperpw h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    color: rgb(103, 103, 103);
+    justify-content: left;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.wrapperpw .explainer {
+    padding-bottom: 15px;
+}
+
+label, input {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .input-box {
+    padding-bottom: 15px;
+    
+}
+
+.info .input-box label {
+    margin-bottom: 5px;
+}
+
+.info .input-box input {
+    border: 2px solid rgb(103, 103, 103);
+    border-radius: 0.3rem;
+    font-size: 20px;
+    height: 65%;
+    width: 100%;
+    padding-left: 5px;
+    color: rgb(103, 103, 103);
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.requestsubmit {
+    font-family: "Inter", sans-serif;
+    border: 2px solid rgb(103, 103, 103);
+    border-radius: 0.3rem;
+    color: rgb(103, 103, 103);
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 50%;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.requestsubmit:hover {
+    transform: translateY(-5px);
+}
+
+.backtologin {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 2px;
+    color: rgb(103, 103, 103);
+}
+
+.backtologin a {
+    text-decoration: none;
+    color: rgb(103, 103, 103);
+}
+
+.backtologin a:hover {
+    color: rgb(56, 56, 236);
+    text-decoration: underline;
+}
